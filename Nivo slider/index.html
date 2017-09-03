@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nivo Slider</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="themes/default/default.css">
+    <link rel="stylesheet" href="themes/bar/bar.css">
+    <link rel="stylesheet" href="themes/dark/dark.css">
+    <link rel="stylesheet" href="themes/light/light.css">
+    <link rel="stylesheet" href="themes/nivo-slider.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="layout">
+        <header>
+            <img src="images/logo.png" height="200px" alt="Logo">
+        </header>
+
+        <div class="slider">
+
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/nemo.jpg" alt="Nemo" title="Nemo">
+                    <img src="images/walle.jpg" alt="Walle">
+                    <img src="images/up.jpg" alt="Up" title="">
+                    <img src="images/toystory.jpg" alt="ToyStory">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content">
+            <div class="sidebar">
+                <h1>Menu</h1>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Blog</a></li>
+
+                    <li><a href="">Picture</a></li>
+
+                    <li><a href="">Project</a></li>
+                    <li><a href="">Address</a></li>
+                    <li><a href="">About</a></li>
+
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+            </div>
+            <div class="article">
+                <h1>Content Header</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, aut.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio saepe commodi provident exercitationem necessitatibus quasi deleniti veniam. Quo, fugit, dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ad laudantium odio consequuntur impedit, rem vitae non! Eaque ex voluptas tenetur est. Perspiciatis nobis atque sapiente iusto optio aperiam vel.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis placeat, minima voluptates.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti optio similique nemo. Cumque, nostrum perspiciatis optio obcaecati totam quis ab beatae illum aliquid eaque ipsum, perferendis ea eum minima distinctio repellat nisi iure quisquam, aut tenetur at, facere debitis! Nulla magnam tempore hic accusamus dolores porro, facilis fugiat tempora nisi.</p>
+
+            </div>
+        </div>
+
+        <footer>
+            &copy;
+            <p>Manash Mondal, 2017</p>
+        </footer>
+
+    </div>
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>
